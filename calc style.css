@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url("https://watermark.lovepik.com/photo/40005/5738.jpg_wh1200.jpg");
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights-with-cool-shapes_181624-26140.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    
+}
+.calculator{
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/300/819/desktop-wallpaper-neon-by-backgrounds-cool-neon-phone-thumbnail.jpg");
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    box-shadow: -2px -2px 2px white,2px 2px 2px whitesmoke;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    border-radius: 10%;
+}
+form input.equal{
+    width: 145px;
+}
+
+
+
+form input.operator{
+    color: #33ffd8;
+}
+
+
