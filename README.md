@@ -3,7 +3,7 @@
 ## Technologies Used:
 HTML:is used to structure the web page and its content.
 CSS:is used to style and layout the webpage.
-JavScript:is used to make webpages interactive.
+JavaScript:is used to make webpages interactive.
 
 ## Usage:
 The program shows the demonstration of a simple calculator where you can perform operations like:
